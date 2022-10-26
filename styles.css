@@ -1,5 +1,5 @@
 * {
-	border: 1px dashed red;
+	border: none;
 	min-height: 10px;
 	font-family: ;
 }
@@ -20,7 +20,7 @@ body {
 	height: 50px;
 }
 .postcard-header h1 {
-	margin: 0;
+	margin: 5px;
 	width: 350px;
 }
 .postcard-body {
@@ -46,7 +46,8 @@ input {
 .postcard-footer {
 	text-align: center;
 }
-.button {
+button {
+	margin: 10px;
 	background-color: darkgrey;
 	padding: 15px;
 }
